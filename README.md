@@ -1,12 +1,27 @@
-# Zreds
+<p align="center">
+  <img src=".github/assets/zreds-logo.svg" alt="Zreds" width="120">
+</p>
 
-A visual automation platform that lets you build workflows without writing code. Create automations with drag-and-drop blocks, visualize real-time data on customizable dashboards, and connect your favorite services.
+<h3 align="center">Zreds</h3>
 
-**Currently in beta with limited access.**
+<p align="center">
+  A visual automation platform that lets you build workflows without writing code.
+  <br>
+  Create automations with drag-and-drop blocks, visualize real-time data on customizable dashboards, and connect your favorite services.
+</p>
 
-[Website](https://zreds.com) ·
-[Documentation](https://docs.zreds.com) ·
-[Discord](https://discord.gg/sEcY2Hmfnd)
+<p align="center">
+  <a href="https://zreds.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fzreds.com&label=zreds.com" alt="Website"></a>
+  <a href="https://docs.zreds.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fdocs.zreds.com&label=docs" alt="Docs"></a>
+  <a href="https://discord.gg/sEcY2Hmfnd"><img src="https://img.shields.io/discord/1466139260519452859?label=discord&color=5865F2" alt="Discord"></a>
+  <img src="https://img.shields.io/badge/status-beta-orange" alt="Beta">
+</p>
+
+<p align="center">
+  <a href="https://zreds.com">Website</a> ·
+  <a href="https://docs.zreds.com">Documentation</a> ·
+  <a href="https://discord.gg/sEcY2Hmfnd">Discord</a>
+</p>
 
 ---
 
