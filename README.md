@@ -11,15 +11,15 @@
 </p>
 
 <p align="center">
-  <a href="https://zreds.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fzreds.com&label=zreds.com" alt="Website"></a>
-  <a href="https://docs.zreds.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fdocs.zreds.com&label=docs" alt="Docs"></a>
+  <a href="https://beta.zreds.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fbeta.zreds.com&label=beta.zreds.com" alt="Website"></a>
+  <a href="https://docs-beta.zreds.com"><img src="https://img.shields.io/website?url=https%3A%2F%2Fdocs-beta.zreds.com&label=docs" alt="Docs"></a>
   <a href="https://discord.gg/sEcY2Hmfnd"><img src="https://img.shields.io/discord/1466139260519452859?label=discord&color=5865F2" alt="Discord"></a>
   <img src="https://img.shields.io/badge/status-beta-orange" alt="Beta">
 </p>
 
 <p align="center">
-  <a href="https://zreds.com">Website</a> ·
-  <a href="https://docs.zreds.com">Documentation</a> ·
+  <a href="https://beta.zreds.com">Website</a> ·
+  <a href="https://docs-beta.zreds.com">Documentation</a> ·
   <a href="https://discord.gg/sEcY2Hmfnd">Discord</a>
 </p>
 
@@ -57,8 +57,8 @@ More integrations are actively in development.
 
 ## Getting Started
 
-1. Sign up at [zreds.com](https://zreds.com)
-2. Follow the [Quick Start Guide](https://docs.zreds.com) to build your first flow in minutes
+1. Sign up at [beta.zreds.com](https://beta.zreds.com)
+2. Follow the [Quick Start Guide](https://docs-beta.zreds.com) to build your first flow in minutes
 
 ---
 
