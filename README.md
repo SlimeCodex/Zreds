@@ -7,7 +7,7 @@
 <p align="center">
   Wire anything to anything.
   <br>
-  A visual automation platform with real-time dashboards. Drag-and-drop blocks. No code.
+  A visual automation platform with live dashboards. No code.
 </p>
 
 <p align="center">
@@ -27,61 +27,59 @@
 
 ## What is a Weave?
 
-A Weave is a graph of triggers, actions, and logic blocks that runs whenever an event hits it. Signal in, your logic in the middle, something happens out. Every Weave is the same shape.
+A Weave is something you build by dragging blocks onto a canvas and connecting them. Signal in, your logic in the middle, something happens out.
 
-You build them by dragging blocks onto a canvas and connecting them. They run on our infrastructure as soon as you save.
+When a chat message arrives, when a sensor reading spikes, when a match ends, when a timer fires. Zreds reacts.
 
 ---
 
 ## Features
 
-### Visual Weave Builder
-A node-graph editor with 180+ blocks. Triggers, actions, getters, and logic across 16 services. Multi-page Weaves, node grouping, inline comments, undo and redo, import and export.
+### Visual builder
+A drag-and-drop editor with 180+ blocks. Multi-page Weaves, grouping, comments, undo and redo, import and export.
 
-### Live Dashboards
-25 widget types that stream live over WebSockets. Wire any block output to a widget and watch it update in real time.
+### Live dashboards
+25 widgets that update in real time.
 
-Display widgets: Number, Status, Counter, Text, Gauge, Table, Time Series, Map, Date and Time, 3D Plot, Log List, YouTube, Image.
+Display: Number, Status, Counter, Text, Gauge, Table, Time Series, Map, Date and Time, 3D Plot, Log List, YouTube, Image.
 
-Input widgets: Button, Switch, Sync Switch, Slider, Knob, Text Input, Number Input, Selector, Date and Time Input, Swiper, Voice Input, Terminal.
+Input: Button, Switch, Sync Switch, Slider, Knob, Text Input, Number Input, Selector, Date and Time Input, Swiper, Voice Input, Terminal.
 
 ### Sharing
-Three public surfaces, each with its own URL.
-
-1. Public Weave view. A read-only link to the live graph. Visitors watch it run, they cannot edit it.
-2. Public dashboard. A standalone dashboard URL. Optional viewer gating by email and password.
-3. Embeddable widget. Drop any single widget into OBS, a docs page, or any iframe-friendly site.
+1. **Public Weave view.** A read-only link to the live graph. Visitors watch it run.
+2. **Public dashboard.** A standalone dashboard URL. Optional gating by email and password.
+3. **Embed.** Drop any single widget into OBS, a docs page, or any site.
 
 ### Community Hub
-Publish a Weave so others can browse, vote, and import it. Snapshot is frozen at publish time. Credentials are never exposed.
+Publish a Weave so others can browse, vote, and import it. Credentials are never exposed.
 
 ### Workspaces
-Each connected account gets isolated workspaces. Weaves, integrations, and dashboards are scoped per workspace. Team seats available on paid tiers.
+Each connected account gets isolated workspaces. Invite teammates on paid tiers.
 
 ### Plugins
-Extend the platform with user-built blocks. Plugin blocks declare ports and a template, and run as part of any Weave.
+Bring your own blocks. Run them as part of any Weave.
 
 ---
 
 ## Integrations
 
-| Service | What it does |
+| Service | What you can do |
 |---|---|
-| Twitch | Chat, moderation, EventSub (follows, subs, raids, bits, gifts, bans, timeouts, polls, predictions, ads), stream info, clip and poll creation. Bring your own bot. |
-| Discord | Bot messaging, embeds, reactions, message and member events, slash commands, bulk delete. Bring your own bot. |
-| Spotify | Now playing, recently played, queue control, skip, URL check. |
-| YouTube | Video playback control, search and play. |
-| League of Legends (Riot API) | Live game state, rank compare, summoner info, active game, ranked stats, last match, champion mastery. |
-| Google | Gmail draft creation, Google Sheets read range, write, append row. |
-| MQTT | Topic publish and subscribe, JSON publish, topic match, custom brokers. |
-| OpenWeather | Current weather lookup. |
-| Telegram | Bot messaging, message events. |
-| GitHub | Webhook events (push, pull request, issue), issue and comment creation. |
-| AI | Claude and ChatGPT. Text generation and processing. |
-| Device Tunnels | Bidirectional channel to a local device with named filter rules. |
-| Database | Per-key persistent history with TTL and size cap (append, get, clear). |
+| Twitch | React to chat, follows, subs, raids, bits, gifts, bans, polls, predictions, ads. Send messages, run moderation, create clips and polls. Bring your own bot. |
+| Discord | Send messages and embeds. React to messages, joins, leaves, slash commands. Bring your own bot. |
+| Spotify | See what is playing, control the queue, skip songs. |
+| YouTube | Control video playback, search and play. |
+| League of Legends | React to game state changes, compare ranks, read live match data. |
+| Google | Draft Gmail messages, read and write Google Sheets. |
+| MQTT | Talk to IoT devices, smart home gear, and custom brokers. |
+| OpenWeather | Pull current weather. |
+| Telegram | Send and receive bot messages. |
+| GitHub | React to pushes, pull requests, and issues. Create issues and comments. |
+| AI | Generate text with Claude. Extract structured data from chat or any input. |
+| Device Tunnels | Connect a local device, send to it and react to what it sends back. |
+| Database | Remember things across runs. Append, read, clear. |
 
-Plus a Core Utilities palette: cooldowns, rate limiters, string formatting, debug, branching, math, JSON, HTTP.
+Plus a Core Utilities palette: variables, counters, cooldowns, timers, conditions, math, string and array helpers.
 
 ---
 
