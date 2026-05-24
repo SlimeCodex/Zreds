@@ -25,4 +25,4 @@ If applicable, add screenshots to help explain the problem.
 - OS (e.g. Windows 11, macOS 15)
 
 **Additional context**
-Any other details -- error messages, Weave configuration, timing, etc.
+Any other details: error messages, Weave configuration, timing, etc.

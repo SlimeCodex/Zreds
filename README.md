@@ -7,7 +7,7 @@
 <p align="center">
   Wire anything to anything.
   <br>
-  A visual automation platform. Drag-and-drop blocks, real-time dashboards, dozens of integrations. No code.
+  A visual automation platform with real-time dashboards. Drag-and-drop blocks. No code.
 </p>
 
 <p align="center">
@@ -36,47 +36,52 @@ You build them by dragging blocks onto a canvas and connecting them. They run on
 ## Features
 
 ### Visual Weave Builder
-A node-graph editor with 130+ blocks across triggers, actions, getters, and logic. Multi-page Weaves, grouping, comments, undo/redo, drawings, data inspector. Import and export as JSON.
+A node-graph editor with 180+ blocks. Triggers, actions, getters, and logic across 16 services. Multi-page Weaves, node grouping, inline comments, undo and redo, import and export.
 
 ### Live Dashboards
-Real-time dashboards built from 25+ widget types. Wire any block output to a widget and it streams live over WebSockets. Resize, group, customize per-widget.
+25 widget types that stream live over WebSockets. Wire any block output to a widget and watch it update in real time.
 
-- **Display widgets:** counter, gauge, number, status, table, text, time series, log list, date/time, image, map, 3D plot, YouTube embed.
-- **Input widgets:** button, switch, sync switch, slider, knob, number, text, selector, date/time, swiper, terminal, voice.
+Display widgets: Number, Status, Counter, Text, Gauge, Table, Time Series, Map, Date and Time, 3D Plot, Log List, YouTube, Image.
 
-### Sharing and Embeds
-- **Public Weave view** -- read-only link to the live graph, anyone can watch it run.
-- **Public dashboards** -- standalone URL, optional email + password gate.
-- **Embeddable widgets** -- drop any single widget into OBS, a docs page, or any site with one iframe.
-- **Community Hub** -- publish a Weave snapshot so others can browse, vote, and import it.
+Input widgets: Button, Switch, Sync Switch, Slider, Knob, Text Input, Number Input, Selector, Date and Time Input, Swiper, Voice Input, Terminal.
 
-### Workspaces and Teams
-Each connected account gets isolated workspaces. Weaves, integrations, and dashboards are scoped per workspace. Invite teammates (Starter and above).
+### Sharing
+Three public surfaces, each with its own URL.
+
+1. Public Weave view. A read-only link to the live graph. Visitors watch it run, they cannot edit it.
+2. Public dashboard. A standalone dashboard URL. Optional viewer gating by email and password.
+3. Embeddable widget. Drop any single widget into OBS, a docs page, or any iframe-friendly site.
+
+### Community Hub
+Publish a Weave so others can browse, vote, and import it. Snapshot is frozen at publish time. Credentials are never exposed.
+
+### Workspaces
+Each connected account gets isolated workspaces. Weaves, integrations, and dashboards are scoped per workspace. Team seats available on paid tiers.
 
 ### Plugins
-Extend the platform with user-built blocks. Templates accept namespaced inputs and produce structured outputs.
+Extend the platform with user-built blocks. Plugin blocks declare ports and a template, and run as part of any Weave.
 
 ---
 
 ## Integrations
 
-| Service | Capabilities |
+| Service | What it does |
 |---|---|
-| **Twitch** | Chat, moderation, EventSub (follows / subs / raids / bits / gifts / bans / timeouts / polls / predictions / ads), stream info, clip and poll creation, bring-your-own-bot |
-| **Discord** | Bot messaging, embeds, reactions, message and member events, slash commands, bulk operations, bring-your-own-bot |
-| **Spotify** | Now playing, recently played, queue control, skip, URL check |
-| **YouTube** | Video playback control, search-and-play |
-| **League of Legends** (Riot API) | Live game state, rank, summoner info, match history, champion mastery |
-| **Google** | Gmail drafts, Google Sheets read / write / append |
-| **MQTT** | Topic pub / sub, JSON publish, topic match, custom brokers, IoT devices |
-| **OpenWeather** | Real-time weather data |
-| **Telegram** | Bot messaging, message events |
-| **GitHub** | Webhook events (push / PR / issues), issue and comment creation |
-| **AI** | Claude, ChatGPT -- text generation and processing |
-| **Device Tunnels** | Expose local devices to your Weaves over a secure tunnel |
-| **Database** | Per-Weave history append / get / clear |
+| Twitch | Chat, moderation, EventSub (follows, subs, raids, bits, gifts, bans, timeouts, polls, predictions, ads), stream info, clip and poll creation. Bring your own bot. |
+| Discord | Bot messaging, embeds, reactions, message and member events, slash commands, bulk delete. Bring your own bot. |
+| Spotify | Now playing, recently played, queue control, skip, URL check. |
+| YouTube | Video playback control, search and play. |
+| League of Legends (Riot API) | Live game state, rank compare, summoner info, active game, ranked stats, last match, champion mastery. |
+| Google | Gmail draft creation, Google Sheets read range, write, append row. |
+| MQTT | Topic publish and subscribe, JSON publish, topic match, custom brokers. |
+| OpenWeather | Current weather lookup. |
+| Telegram | Bot messaging, message events. |
+| GitHub | Webhook events (push, pull request, issue), issue and comment creation. |
+| AI | Claude and ChatGPT. Text generation and processing. |
+| Device Tunnels | Bidirectional channel to a local device with named filter rules. |
+| Database | Per-key persistent history with TTL and size cap (append, get, clear). |
 
-Plus 40+ core utility blocks: cooldowns, rate limiters, string formatting, debug, branching, math, JSON, HTTP.
+Plus a Core Utilities palette: cooldowns, rate limiters, string formatting, debug, branching, math, JSON, HTTP.
 
 ---
 
@@ -88,7 +93,7 @@ Plus 40+ core utility blocks: cooldowns, rate limiters, string formatting, debug
 | Starter | $9 / mo | 25 | 10,000 | 50 | 30 days | 3 |
 | Pro | $29 / mo | 50 | 100,000 | 200 | 90 days | 10 |
 
-Sign in with Google, GitHub, Twitch, or Spotify.
+Sign in with Google, GitHub, Twitch, or Discord.
 
 ---
 
@@ -102,11 +107,11 @@ Sign in with Google, GitHub, Twitch, or Spotify.
 
 ## Feedback and Bug Reports
 
-This repository is the public issue tracker for Zreds. If you run into a bug or have a feature idea:
+This repository is the public issue tracker for Zreds.
 
-- **Bug reports** -- [Open a bug report](https://github.com/SlimeCodex/Zreds/issues/new?template=bug_report.md)
-- **Feature requests** -- [Open a feature request](https://github.com/SlimeCodex/Zreds/issues/new?template=feature_request.md)
-- **General discussion** -- Join the [Discord server](https://discord.gg/sEcY2Hmfnd)
+- Bug reports: [Open a bug report](https://github.com/SlimeCodex/Zreds/issues/new?template=bug_report.md)
+- Feature requests: [Open a feature request](https://github.com/SlimeCodex/Zreds/issues/new?template=feature_request.md)
+- General discussion: join the [Discord server](https://discord.gg/sEcY2Hmfnd)
 
 ---
 
