@@ -5,9 +5,9 @@
 <h3 align="center">Zreds</h3>
 
 <p align="center">
-  A visual automation platform that lets you build workflows without writing code.
+  Wire anything to anything.
   <br>
-  Create automations with drag-and-drop blocks, visualize real-time data on customizable dashboards, and connect your favorite services.
+  A visual automation platform. Drag-and-drop blocks, real-time dashboards, dozens of integrations. No code.
 </p>
 
 <p align="center">
@@ -25,46 +25,84 @@
 
 ---
 
+## What is a Weave?
+
+A Weave is a graph of triggers, actions, and logic blocks that runs whenever an event hits it. Signal in, your logic in the middle, something happens out. Every Weave is the same shape.
+
+You build them by dragging blocks onto a canvas and connecting them. They run on our infrastructure as soon as you save.
+
+---
+
 ## Features
 
-### Visual Flow Builder
-Design automations using a drag-and-drop block editor. Chain triggers, actions, and conditions together to build anything from simple alerts to complex multi-step workflows.
+### Visual Weave Builder
+A node-graph editor with 130+ blocks across triggers, actions, getters, and logic. Multi-page Weaves, grouping, comments, undo/redo, drawings, data inspector. Import and export as JSON.
 
 ### Live Dashboards
-Monitor your data in real-time with 20+ widget types. Charts, gauges, text displays, images, and more -- all updating live as your flows run.
+Real-time dashboards built from 25+ widget types. Wire any block output to a widget and it streams live over WebSockets. Resize, group, customize per-widget.
 
-### Public Sharing
-Share dashboards with anyone via a simple link. No login required for viewers. Embed them in your own site or use them as status pages and monitoring screens.
+- **Display widgets:** counter, gauge, number, status, table, text, time series, log list, date/time, image, map, 3D plot, YouTube embed.
+- **Input widgets:** button, switch, sync switch, slider, knob, number, text, selector, date/time, swiper, terminal, voice.
 
-### Integrations
+### Sharing and Embeds
+- **Public Weave view** -- read-only link to the live graph, anyone can watch it run.
+- **Public dashboards** -- standalone URL, optional email + password gate.
+- **Embeddable widgets** -- drop any single widget into OBS, a docs page, or any site with one iframe.
+- **Community Hub** -- publish a Weave snapshot so others can browse, vote, and import it.
 
-Connect with the services you already use:
+### Workspaces and Teams
+Each connected account gets isolated workspaces. Weaves, integrations, and dashboards are scoped per workspace. Invite teammates (Starter and above).
+
+### Plugins
+Extend the platform with user-built blocks. Templates accept namespaced inputs and produce structured outputs.
+
+---
+
+## Integrations
 
 | Service | Capabilities |
 |---|---|
-| **Twitch** | Chat, moderation, channel events, subscriptions |
-| **Discord** | Bot messaging, guild management |
-| **Spotify** | Playback control, track info |
-| **League of Legends** | Live game data via Riot Games API |
-| **Google** | Sheets, Gmail |
-| **MQTT** | IoT devices, smart home, custom brokers |
+| **Twitch** | Chat, moderation, EventSub (follows / subs / raids / bits / gifts / bans / timeouts / polls / predictions / ads), stream info, clip and poll creation, bring-your-own-bot |
+| **Discord** | Bot messaging, embeds, reactions, message and member events, slash commands, bulk operations, bring-your-own-bot |
+| **Spotify** | Now playing, recently played, queue control, skip, URL check |
+| **YouTube** | Video playback control, search-and-play |
+| **League of Legends** (Riot API) | Live game state, rank, summoner info, match history, champion mastery |
+| **Google** | Gmail drafts, Google Sheets read / write / append |
+| **MQTT** | Topic pub / sub, JSON publish, topic match, custom brokers, IoT devices |
 | **OpenWeather** | Real-time weather data |
-| **AI** | Claude, ChatGPT -- text processing and generation |
+| **Telegram** | Bot messaging, message events |
+| **GitHub** | Webhook events (push / PR / issues), issue and comment creation |
+| **AI** | Claude, ChatGPT -- text generation and processing |
+| **Device Tunnels** | Expose local devices to your Weaves over a secure tunnel |
+| **Database** | Per-Weave history append / get / clear |
 
-More integrations are actively in development.
+Plus 40+ core utility blocks: cooldowns, rate limiters, string formatting, debug, branching, math, JSON, HTTP.
+
+---
+
+## Pricing
+
+| Tier | Price | Weaves | Runs / month | Widgets / dashboard | Retention | Workspaces |
+|---|---|---|---|---|---|---|
+| Free | $0 | 5 | 1,000 | 10 | 7 days | 1 |
+| Starter | $9 / mo | 25 | 10,000 | 50 | 30 days | 3 |
+| Pro | $29 / mo | 50 | 100,000 | 200 | 90 days | 10 |
+
+Sign in with Google, GitHub, Twitch, or Spotify.
 
 ---
 
 ## Getting Started
 
-1. Sign up at [beta.zreds.com](https://beta.zreds.com)
-2. Follow the [Quick Start Guide](https://docs-beta.zreds.com) to build your first flow in minutes
+1. Sign up at [beta.zreds.com](https://beta.zreds.com).
+2. Connect a service from your workspace settings.
+3. Build your first Weave with the [Quick Start Guide](https://docs-beta.zreds.com).
 
 ---
 
 ## Feedback and Bug Reports
 
-This repository serves as the public issue tracker for Zreds. If you run into a bug or have a feature idea:
+This repository is the public issue tracker for Zreds. If you run into a bug or have a feature idea:
 
 - **Bug reports** -- [Open a bug report](https://github.com/SlimeCodex/Zreds/issues/new?template=bug_report.md)
 - **Feature requests** -- [Open a feature request](https://github.com/SlimeCodex/Zreds/issues/new?template=feature_request.md)
